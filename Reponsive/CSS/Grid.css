@@ -36,6 +36,14 @@ h1{
     background-color: chocolate;
     height: 260px;
 }
+.category{
+    background-color: green;
+    height: 260px;
+}
+ul{ 
+    margin: 0;
+}
+
 
 @media (max-width:1023px){
     .course-item{
