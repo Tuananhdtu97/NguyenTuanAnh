@@ -1,8 +1,32 @@
 /* Mobile & tablet */
 @media (max-width: 1023px){
+    :root{
+        --navbar-height : 0px;
+        --header-height : 68px ;
+    }
     .hide-on-mobile-tablet{
         display: none;
     }
+    .header__cart{
+        width: 80px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        
+    }
+    .header__cart-notice{
+        position: absolute;
+        padding: 1px 7px;
+        color: var(--primary--color);
+        background-color: var(--while--color);
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        border-radius: 8px;
+        border: 2px solid #EE4D2D;
+        top: -5px;
+        right: 10px;
+    }
+    
 }
 /* Tablet */
 @media(min-width: 740px) and (max-width:1023px){
